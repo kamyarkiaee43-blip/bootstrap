@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kamyar Kiaei | Resume</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap 4 -->
+  <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+  >
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <a class="navbar-brand" href="#">Kamyar Kiaei</a>
+  <button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="menu">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+      <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+      <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ===== CAROUSEL ===== -->
+<div id="mainCarousel" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://via.placeholder.com/1200x350?text=Computer+Engineering+Student"
+           class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="https://via.placeholder.com/1200x350?text=Web+Development"
+           class="d-block w-100">
+    </div>
+  </div>
+</div>
+
+<!-- ===== ABOUT ===== -->
+<section class="container section" id="about">
+  <div class="row">
+    <div class="col-md-6">
+      <h2>About Me</h2>
+      <p>
+        My name is Kamyar Kiaei. I am a Computer Engineering student with
+        a strong interest in web development and front-end technologies.
+        I enjoy building responsive and user-friendly websites.
+      </p>
+    </div>
+    <div class="col-md-6">
+      <h2>Education</h2>
+      <ul>
+        <li>B.Sc. in Computer Engineering</li>
+        <li>University Student</li>
+        <li>Interested in Web & Software Development</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SKILLS ===== -->
+<section class="container section" id="skills">
+  <h2 class="text-center mb-4">Technical Skills</h2>
+
+  <label>HTML</label>
+  <div class="progress mb-3">
+    <div class="progress-bar bg-success" style="width: 85%">85%</div>
+  </div>
+
+  <label>CSS</label>
+  <div class="progress mb-3">
+    <div class="progress-bar bg-info" style="width: 75%">75%</div>
+  </div>
+
+  <label>Bootstrap</label>
+  <div class="progress mb-3">
+    <div class="progress-bar bg-warning" style="width: 70%">70%</div>
+  </div>
+</section>
+
+<!-- ===== PROJECTS ===== -->
+<section class="container section" id="projects">
+  <h2 class="text-center mb-4">Projects</h2>
+
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Personal Resume Website</h5>
+          <p class="card-text">
+            A responsive resume website created using HTML, CSS and Bootstrap.
+          </p>
+          <button class="btn btn-primary" data-toggle="modal" data-target="#projectModal">
+            View Details
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== MODAL ===== -->
+<div class="modal fade" id="projectModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title">Personal Resume Website</h5>
+        <button class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <div class="modal-body">
+        This project was developed as a university assignment and includes
+        Bootstrap components such as navbar, carousel, cards, modal
+        and progress bars.
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- ===== JS ===== -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
